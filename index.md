@@ -27,4 +27,27 @@ features:
 
 Organised by
 
-![Sunway University](/img/sunway.png) ![XJTLU](/img/xjtlu.png) ![UTM](/img/utm.png)
+<style>
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* or center / space-around */
+    align-items: center;
+    flex-wrap: nowrap; /* keep in one row */
+    max-width: 100%; /* responsive */
+    gap: 10px; /* space between images */
+  }
+
+  .image-row img {
+    flex: 1 1 0; /* allow equal width distribution */
+    width: 100%;
+    height: auto; /* maintain aspect ratio */
+    object-fit: cover; /* crop if necessary */
+  }
+</style>
+<div class="image-row">
+  <img src="/img/sunway.png">
+  <img src="/img/xjtlu.png">
+  <img src="/img/utm.png">
+</div>
+
+<!-- ![Sunway University](/img/sunway.png) ![XJTLU](/img/xjtlu.png) ![UTM](/img/utm.png) -->
