@@ -8,11 +8,11 @@ hero:
   tagline: "11-12 November 2025 | Sunway University"
   actions:
     - theme: brand
-      text: Schedule
-      link: /markdown-examples
+      text: ICiMR
+      link: /schedule-icimr
     - theme: alt
-      text: Booklet
-      link: /api-examples
+      text: MARS
+      link: /schedule-mars
 
 features:
   - title: Session 1

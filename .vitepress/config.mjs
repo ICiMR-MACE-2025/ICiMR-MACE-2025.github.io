@@ -15,7 +15,7 @@ export default defineConfig({
       {
         items: [
           { text: 'About ICiMR', link: '/about-icimr' }, 
-          { text: 'About MACE', link: '/about-mace' }, 
+          { text: 'About MARS', link: '/about-mars' }, 
         ]
       },
       {
@@ -30,7 +30,7 @@ export default defineConfig({
         text: 'Schedule',
         items: [
           { text: 'ICiMR', link: '/schedule-icimr' },
-          { text: 'MACE', link: '/schedule-mace' },
+          { text: 'MARS', link: '/schedule-mars' },
         ]
       },
       {
@@ -50,9 +50,9 @@ export default defineConfig({
             ]
           },
           { 
-            text: 'MACE', 
+            text: 'MARS', 
             items: [
-              { text: 'Session 1', link: '/mace-session-1' },
+              { text: 'Session 1', link: '/mars-session-1' },
             ]
           },
         ]
