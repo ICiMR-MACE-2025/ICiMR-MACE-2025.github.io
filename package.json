@@ -6,5 +6,11 @@
   },
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.4.47",
+    "qrcode.vue": "^3.6.0",
+    "vue": "^3.5.22"
   }
 }

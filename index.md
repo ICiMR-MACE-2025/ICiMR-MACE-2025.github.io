@@ -45,9 +45,9 @@ Organised by
   }
 </style>
 <div class="image-row">
-  <img src="/img/sunway.png">
-  <img src="/img/xjtlu.png">
-  <img src="/img/utm.png">
+  <a href="/about-sunway-university"><img src="/img/sunway.png"></a>
+  <a href="/about-xjtlu"><img src="/img/xjtlu.png"></a>
+  <a href="/about-utm"><img src="/img/utm.png"></a>
 </div>
 
 <!-- ![Sunway University](/img/sunway.png) ![XJTLU](/img/xjtlu.png) ![UTM](/img/utm.png) -->
