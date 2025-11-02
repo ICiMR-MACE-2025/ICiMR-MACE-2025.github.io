@@ -47,6 +47,7 @@ export default defineConfig({
             text: 'ICiMR', 
             items: [
               { text: 'Session 1', link: '/icimr-session-1' },
+              { text: 'Session 1', link: '/icimr-session-1' },
             ]
           },
           { 
