@@ -1,11 +1,18 @@
 <template>
   <div class="qrbox">
-    <a href="link">
+    <a :href="link">
       <QrcodeVue
         :value="link"
         :size="200"
         :margin="2"
       />
+      <!-- <QrcodeVue
+        :value="link"
+        :size="1000"
+        :margin="3"
+        background="#457d58"
+        foreground="#fffff4"
+      /> -->
     </a>
     Scan or click QR code to launch
   </div>
