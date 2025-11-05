@@ -1,4 +1,4 @@
-# Schedule for MACE
+# Schedule for MARS
 
 <script setup>
 import Event from './components/Event.vue'
