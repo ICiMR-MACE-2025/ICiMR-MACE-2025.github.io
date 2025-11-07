@@ -36,8 +36,22 @@ export default defineConfig({
       {
         text: 'Speakers',
         items: [
-          { text: 'AP Dr Ki-Young Song', link: '/speaker-1' },
-          { text: 'Speaker 2', link: '/api-examples' }
+          { 
+            text: 'ICiMR', 
+            items: [
+              { text: 'AP Dr Ki-Young Song', link: '/icimr-keynote-speaker' },
+              { text: 'Associate Professor Dr Devi Fitrianah', link: '/icimr-speaker-1' },
+              { text: 'Dr Yang Fang', link: '/icimr-speaker-2' },
+              { text: 'Dr Mohd Azraai Mohd Razman', link: '/icimr-speaker-3' },
+            ]
+          },
+          { 
+            text: 'MARS', 
+            items: [
+              { text: 'Alkusaie Bin Abd Rahim', link: '/mars-keynote-speaker-1' },
+              { text: 'Zulfiqar Zainuddin', link: '/mars-keynote-speaker-2' },
+            ]
+          },
         ]
       },
       {
