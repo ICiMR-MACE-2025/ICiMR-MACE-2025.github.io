@@ -1,4 +1,4 @@
-# 
+# Zulfiqar Zainuddin
 
 <script setup>
 import Speaker from "./components/Speaker.vue"
@@ -6,9 +6,9 @@ import Speaker from "./components/Speaker.vue"
 
 <Speaker 
   image=""
-  speaker=""
+  speaker="Zulfiqar Zainuddin"
   affiliation=""
-  title=""
+  title="AI Dilemma in Industries: How Should We React?"
   day=""
   time=""
   venue=""
