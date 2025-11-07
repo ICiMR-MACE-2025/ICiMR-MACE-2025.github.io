@@ -10,7 +10,7 @@ import Speaker from "./components/Speaker.vue"
   affiliation="Universiti Malaysia Pahang Al-Sultan Abdullah"
   title="Technology Adoption for Sustainable Agri and Aqua Growth"
   day="1"
-  time="1430"
+  time="14:30"
   venue="LT7"
 >
   <template #description>
