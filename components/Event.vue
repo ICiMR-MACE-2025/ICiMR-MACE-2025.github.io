@@ -35,6 +35,9 @@ import { mdiOpenInNew } from '@mdi/js';
   border-radius: 8px;
   margin: 10px 0px;
 }
+.card .desc:last-child {
+  border-radius: 0px 8px 8px 0px;
+}
 .card .timing, .card .desc, .card .venue {
   padding: 20px 30px;
 }
