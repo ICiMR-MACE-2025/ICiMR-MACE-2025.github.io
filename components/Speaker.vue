@@ -33,6 +33,9 @@ import Event from './Event.vue';
   display: flex;
   flex-direction: column;
 }
+.speaker h1 {
+  text-align: center;
+}
 @media (max-width: 650px) {
   .speaker {
     display: flex;
