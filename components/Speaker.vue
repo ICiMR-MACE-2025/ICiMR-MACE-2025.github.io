@@ -42,8 +42,7 @@ import Event from './Event.vue';
   }
 }
 .speaker-image {
-  width: 200px;       
-  height: 200px;       
+  width: 220px;       
   object-fit: cover;   
   border-radius: 10px; 
   display: block;
