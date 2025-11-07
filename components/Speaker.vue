@@ -29,32 +29,35 @@ import Event from './Event.vue';
 </script>
 
 <style scoped>
-@media (max-width: 650px) {
- .speaker {
+.speaker {
   display: flex;
-  flex-direction: column;        
-  align-items: center;         
-  gap: 24px;
+  flex-direction: row;
+  gap: 20px;
 }
-.image {
-  margin-bottom: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 650px) {
+  .speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
 .speaker-image {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  padding: 12px;
-  border-radius: 10px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  width: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  object-fit: cover;
 }
 .content {
-  width: 100%;
-  max-width: 660px;           
+  display: flex;
+  flex-direction: column;
 }
 .day {
+  /* font-size: larger; */
   font-weight: bold;
 }
 .description {
