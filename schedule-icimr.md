@@ -11,7 +11,7 @@ import Event from './components/Event.vue'
 <Event time="10:00" title="Biomedical Engineering: The Future is here" remarks="Alkusaie Bin Abd Rahim" venue="LT7" link="speaker-mars-keynote-1"/>
 <Event time="10:30" title="Morning Break" venue="Lobby"/>
 <Event time="10:45" title="Mapping the Future of Tuna Fisheries in Indonesia: Predictive Modeling with Big Data and Machine Learning" remarks="Associate Professor Dr Devi Fitrianah" venue="LT7" link="speaker-icimr-1"/>
-<Event time="11:15" title="AI Dilemma in Industries: How Should We React?" remarks="Zulfiqar Zainuddin" venue="LT7" link="peaker-mars-keynote-2"/>
+<Event time="11:15" title="AI Dilemma in Industries: How Should We React?" remarks="Zulfiqar Zainuddin" venue="LT7" link="speaker-mars-keynote-2"/>
 <Event time="11:45" title="Technical Sessions" venue="LT7/UC-6-10"/>
 <Event time="12:45" title="Lunch" venue="Lobby"/>
 <Event time="14:00" title="Smart Detection of Personal Protective Equipment (PPE) Compliance in Industrial Settings" venue="LT7" remarks="Dr Yang Fang" link="speaker-icimr-2"/>
