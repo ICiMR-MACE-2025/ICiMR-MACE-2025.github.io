@@ -10,7 +10,7 @@ import Speaker from "./components/Speaker.vue"
   affiliation="Binus University"
   title="Mapping the Future of Tuna Fisheries in Indonesia: Predictive Modeling with Big Data and Machine Learning"
   day="1"
-  time="1030"
+  time="10:30"
   venue="LT7"
 >
   <template #description>
