@@ -10,7 +10,7 @@ import Speaker from "./components/Speaker.vue"
   affiliation="Chongqing University of Posts and Telecommunications"
   title="Smart Detection of Personal Protective Equipment (PPE) Compliance in Industrial Settings"
   day="1"
-  time="1400"
+  time="14:00"
   venue="LT7"
 >
   <template #description>
