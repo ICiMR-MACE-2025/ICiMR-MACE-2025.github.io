@@ -92,5 +92,8 @@ import { mdiOpenInNew } from '@mdi/js';
   border-radius: 0px 8px 8px 0px;
   background-color: var(--vp-c-brand-1);
   color: var(--vp-button-brand-text);
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;  
 }
 </style>
