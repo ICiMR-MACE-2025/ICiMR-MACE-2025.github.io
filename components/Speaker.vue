@@ -37,8 +37,10 @@ import Event from './Event.vue';
 }
 @media (max-width: 650px) {
   .speaker {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 }
 .speaker-image {
