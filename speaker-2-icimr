@@ -1,4 +1,4 @@
-# 
+#Dr Yang Fang
 
 <script setup>
 import Speaker from "./components/Speaker.vue"
@@ -6,7 +6,7 @@ import Speaker from "./components/Speaker.vue"
 
 <Speaker 
   image=""
-  speaker=""
+  speaker="Dr Yang Fang"
   affiliation=""
   title=""
   day=""
