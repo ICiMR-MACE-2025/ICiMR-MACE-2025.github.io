@@ -5,7 +5,6 @@
         <img :src="image" class="speaker-image"></img>
       </slot>
     </div>
-    <h1 class="centered-title">{{ speaker }}</h1>
     <div class="content">
       <div class="session">
         <slot name="session">
@@ -32,18 +31,15 @@ import Event from './Event.vue';
 <style scoped>
 .speaker {
   display: flex;
-  flex-direction: column;
-}
-.centered-title {
-  text-align: center;
-  width: 100%;
-  margin: 0 0 18px 0; 
+  flex-direction: row;
+  gap: 20px;
 }
 @media (max-width: 650px) {
   .speaker {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 }
 .speaker-image {
@@ -52,6 +48,7 @@ import Event from './Event.vue';
   margin-right: auto;
   max-width: 200px;
   width: auto;
+  padding: 12px;
   box-sizing: border-box;
   object-fit: cover;
 }
