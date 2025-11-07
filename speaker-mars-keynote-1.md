@@ -1,4 +1,4 @@
-# 
+# Alkusaie Bin Abd Rahim
 
 <script setup>
 import Speaker from "./components/Speaker.vue"
@@ -6,9 +6,9 @@ import Speaker from "./components/Speaker.vue"
 
 <Speaker 
   image=""
-  speaker=""
+  speaker="Alkusaie Bin Abd Rahim"
   affiliation=""
-  title=""
+  title="Biomedical Engineering: The Future is here."
   day=""
   time=""
   venue=""
