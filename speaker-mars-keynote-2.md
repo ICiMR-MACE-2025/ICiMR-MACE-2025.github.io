@@ -7,11 +7,11 @@ import Speaker from "./components/Speaker.vue"
 <Speaker 
   image=""
   speaker="Zulfiqar Zainuddin"
-  affiliation=""
+  affiliation="Former Partner & Executive Director, Deloitte"
   title="AI Dilemma in Industries: How Should We React?"
-  day=""
-  time=""
-  venue=""
+  day="1"
+  time="1115"
+  venue="LT7"
 >
   <template #description>
   </template>
