@@ -1,0 +1,18 @@
+# 
+
+<script setup>
+import Speaker from "./components/Speaker.vue"
+</script>
+
+<Speaker 
+  image=""
+  speaker=""
+  affiliation=""
+  title=""
+  day=""
+  time=""
+  venue=""
+>
+  <template #description>
+  </template>
+</Speaker>
