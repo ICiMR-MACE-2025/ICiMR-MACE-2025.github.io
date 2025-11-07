@@ -22,4 +22,9 @@ import Event from './components/Event.vue'
 
 ## Day 2
 
-<Event time="09:15" title="Registration" venue="LT7" remarks=""/>
+<Event time="09:00" title="Campus Tour" venue="LT8"/>
+<Event time="10:30" title="Morning Break" venue="Lobby"/>
+<Event time="10:45" title="End of Day 2 Conference" venue="Lobby"/>
+
+
+
