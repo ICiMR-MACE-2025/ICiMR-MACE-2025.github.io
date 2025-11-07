@@ -31,13 +31,13 @@ import Event from './Event.vue';
 <style scoped>
 .speaker {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 @media (max-width: 650px) {
   .speaker {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
   }
@@ -57,7 +57,6 @@ import Event from './Event.vue';
   flex-direction: column;
 }
 .day {
-  /* font-size: larger; */
   font-weight: bold;
 }
 .description {
