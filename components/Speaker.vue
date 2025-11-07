@@ -42,12 +42,10 @@ import Event from './Event.vue';
   }
 }
 .speaker-image {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center; 
-  display: block;
-  margin: 0 auto;          
+  width: auto;
+  max-width: 200px;    
+  padding: 12px;        
+  box-sizing: border-box;
 }
 .content {
   display: flex;
