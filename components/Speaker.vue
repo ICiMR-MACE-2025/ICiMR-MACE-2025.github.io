@@ -29,11 +29,6 @@ import Event from './Event.vue';
 </script>
 
 <style scoped>
-.speaker {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
 @media (max-width: 650px) {
  .speaker {
   display: flex;
