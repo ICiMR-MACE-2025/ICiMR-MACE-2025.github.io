@@ -89,6 +89,7 @@ import { mdiOpenInNew } from '@mdi/js';
   font-size: larger;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 0px 8px 8px 0px;
   background-color: var(--vp-c-brand-1);
   color: var(--vp-button-brand-text);
