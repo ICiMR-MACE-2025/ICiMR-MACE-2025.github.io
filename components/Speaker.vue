@@ -42,7 +42,7 @@ import Event from './Event.vue';
   }
 }
 .speaker-image {
-  width: 220px;       
+  width: 600px;       
   object-fit: cover;   
   display: block;
 }
