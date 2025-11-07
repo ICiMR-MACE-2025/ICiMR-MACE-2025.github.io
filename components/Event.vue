@@ -53,6 +53,7 @@ import { mdiOpenInNew } from '@mdi/js';
   border-radius: 8px 0px 0px 8px;
   align-items: center;
   justify-content: center;
+  min-width: 90px;
 }
 .card .time {
   display: flex;
