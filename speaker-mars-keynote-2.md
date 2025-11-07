@@ -10,7 +10,7 @@ import Speaker from "./components/Speaker.vue"
   affiliation="Former Partner & Executive Director, Deloitte"
   title="AI Dilemma in Industries: How Should We React?"
   day="1"
-  time="1115"
+  time="11:15"
   venue="LT7"
 >
   <template #description>
