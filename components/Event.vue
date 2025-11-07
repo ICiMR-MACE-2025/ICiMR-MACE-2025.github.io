@@ -34,6 +34,12 @@ import { mdiOpenInNew } from '@mdi/js';
   /* border: 1px solid var(--vp-c-brand-1); */
   border-radius: 8px;
   margin: 10px 0px;
+  align-items: stretch;
+}
+.card > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .card .timing, .card .desc, .card .venue {
   padding: 20px 30px;
