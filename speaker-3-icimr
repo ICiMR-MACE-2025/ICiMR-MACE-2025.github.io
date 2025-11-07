@@ -1,4 +1,4 @@
-# 
+# Dr Mohd Azraai Mohd Razman
 
 <script setup>
 import Speaker from "./components/Speaker.vue"
@@ -6,7 +6,7 @@ import Speaker from "./components/Speaker.vue"
 
 <Speaker 
   image=""
-  speaker=""
+  speaker="Dr Mohd Azraai Mohd Razman"
   affiliation=""
   title=""
   day=""
