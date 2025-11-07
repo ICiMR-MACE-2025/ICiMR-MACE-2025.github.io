@@ -46,7 +46,6 @@ import Event from './Event.vue';
   margin-right: auto;
   max-width: 200px;
   width: auto;
-  padding: 12px;
   box-sizing: border-box;
   object-fit: cover;
 }
@@ -55,7 +54,6 @@ import Event from './Event.vue';
   flex-direction: column;
 }
 .day {
-  /* font-size: larger; */
   font-weight: bold;
 }
 .description {
