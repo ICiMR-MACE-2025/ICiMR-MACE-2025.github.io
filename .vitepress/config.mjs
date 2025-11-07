@@ -39,17 +39,17 @@ export default defineConfig({
           { 
             text: 'ICiMR', 
             items: [
-              { text: 'AP Dr Ki-Young Song', link: '/icimr-keynote-speaker' },
-              { text: 'Associate Professor Dr Devi Fitrianah', link: '/icimr-speaker-1' },
-              { text: 'Dr Yang Fang', link: '/icimr-speaker-2' },
-              { text: 'Dr Mohd Azraai Mohd Razman', link: '/icimr-speaker-3' },
+              { text: 'AP Dr Ki-Young Song', link: '/speaker-icimr-keynote' },
+              { text: 'Associate Professor Dr Devi Fitrianah', link: '/speaker-1-icimr' },
+              { text: 'Dr Yang Fang', link: '/speaker-2-icimr' },
+              { text: 'Dr Mohd Azraai Mohd Razman', link: '/speaker-3-icimr' },
             ]
           },
           { 
             text: 'MARS', 
             items: [
-              { text: 'Alkusaie Bin Abd Rahim', link: '/mars-keynote-speaker-1' },
-              { text: 'Zulfiqar Zainuddin', link: '/mars-keynote-speaker-2' },
+              { text: 'Alkusaie Bin Abd Rahim', link: '/speaker-mars-keynote-1' },
+              { text: 'Zulfiqar Zainuddin', link: '/speaker-mars-keynote-2' },
             ]
           },
         ]
