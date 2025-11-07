@@ -44,7 +44,6 @@ import Event from './Event.vue';
 .speaker-image {
   width: 220px;       
   object-fit: cover;   
-  border-radius: 10px; 
   display: block;
 }
 .content {
