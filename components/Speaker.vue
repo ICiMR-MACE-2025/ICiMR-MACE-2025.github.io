@@ -41,11 +41,19 @@ import Event from './Event.vue';
     align-items: center;
   }
 }
+.image {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  width: 100%;              
+  height: 240px;            
+}
 .speaker-image {
+  max-width: 200px;
   width: auto;
-  max-width: 200px;    
-  padding: 12px;        
+  padding: 12px;
   box-sizing: border-box;
+  display: block;
 }
 .content {
   display: flex;
