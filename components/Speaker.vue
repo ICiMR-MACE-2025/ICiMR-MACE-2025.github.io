@@ -5,6 +5,7 @@
         <img :src="image" class="speaker-image"></img>
       </slot>
     </div>
+    <h1 class="centered-title">{{ speaker }}</h1>
     <div class="content">
       <div class="session">
         <slot name="session">
@@ -33,8 +34,10 @@ import Event from './Event.vue';
   display: flex;
   flex-direction: column;
 }
-.speaker h1 {
+.centered-title {
   text-align: center;
+  width: 100%;
+  margin: 0 0 18px 0; 
 }
 @media (max-width: 650px) {
   .speaker {
