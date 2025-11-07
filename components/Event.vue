@@ -14,8 +14,8 @@
       </div>
       <div class="remarks">{{ remarks }}</div>
     </div>
-    <div class="venue">
-      {{ venue }}
+    <div v-if="venue" class="venue">
+    {{ venue }}
     </div>
   </div>
 </template>
