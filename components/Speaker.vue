@@ -35,29 +35,31 @@ import Event from './Event.vue';
   gap: 20px;
 }
 @media (max-width: 650px) {
-  .speaker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+ .speaker {
+  display: flex;
+  flex-direction: column;        
+  align-items: center;         
+  gap: 24px;
+}
+.image {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .speaker-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 200px;
-  width: auto;
-  padding: 12px;
-  box-sizing: border-box;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
+  padding: 12px;
+  border-radius: 10px;
+  display: block;
 }
 .content {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  max-width: 660px;           
 }
 .day {
-  /* font-size: larger; */
   font-weight: bold;
 }
 .description {
