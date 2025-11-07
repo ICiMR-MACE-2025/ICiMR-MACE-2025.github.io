@@ -32,14 +32,12 @@ import Event from './Event.vue';
 .speaker {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 @media (max-width: 650px) {
   .speaker {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
   }
 }
 .speaker-image {
