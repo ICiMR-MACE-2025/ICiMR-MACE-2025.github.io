@@ -10,7 +10,7 @@ import Speaker from "./components/Speaker.vue"
   affiliation="CEO, Medbis Sdn Bhd"
   title="Biomedical Engineering: The Future is here."
   day="1"
-  time="1000"
+  time="10:00"
   venue="LT7"
 >
   <template #description>
