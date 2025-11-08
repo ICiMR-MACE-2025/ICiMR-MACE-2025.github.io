@@ -47,7 +47,6 @@ import SessionLink from './components/SessionLink.vue'
 <Event time="14:00" title="Smart Detection of Personal Protective Equipment (PPE) Compliance in Industrial Settings" venue="LT7" remarks="Dr Yang Fang" link="speaker-icimr-2"/>
 <Event time="14:30" title="Technology Adoption for Sustainable Agri and Aqua Growth" venue="LT7" remarks="Dr Mohd Azraai Mohd Razman" link="speaker-icimr-3"/>
 
-<Event time="15:00" title="Technical Sessions" venue="LT7/UC-6-10"/>
 <div class="event-group">
   <b>Technical Sessions</b>
   <Event time="15:00" title="Physical Room 3" venue="LT7" link="icimr-physical-3"/>
