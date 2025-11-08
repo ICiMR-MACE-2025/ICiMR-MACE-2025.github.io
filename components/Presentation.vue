@@ -24,7 +24,7 @@ defineProps(["time", "title", "presenter"])
   /* padding: 11px 16px 13px; */
   /* border: 1px solid var(--vp-c-brand-1); */
   border-radius: 8px;
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 .card .timing, .card .desc {
   padding: 20px 30px;
