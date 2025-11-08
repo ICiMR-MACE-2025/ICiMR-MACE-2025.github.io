@@ -13,3 +13,4 @@ import Presentation from './components/Presentation.vue'
 <Presentation time='12:15' title='Software-in-the-Loop Simulation of Trajectory Tracking Control for Quadcopter UAV' presenter='Mohd Yusuf Amran'/>
 <Presentation time='12:30' title='Natural Frequencies Prediction of Cantilever Hybrid Composite Laminates Using Finite Element Simulation and Artificial Neural Network' presenter='Schufee Amani bin Suhaime'/>
 <Presentation time='12:45' title='Design and Simulation of a 4WD Autonomous Mobile Robot for EV Charging Applications' presenter='Izzuddin Mat Lazim'/>
+<Presentation time='13:00' title='Exploring the Efficacy of “Library Robot”: A Low-cost  Guiding System for Library Navigation and Interaction Using Raspberry Pi and OpenCV' presenter='Mumtahina Arbi'/>
