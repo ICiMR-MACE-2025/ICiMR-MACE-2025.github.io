@@ -13,7 +13,4 @@ import Speaker from "./components/Speaker.vue"
   time="10:00"
   venue="LT7"
 >
-  <template #description>
-    hfdklajhflkdsjalfkjdlksclaksdhkchxak;j hiusc hiusdh ciuh duhsd idh saih viufdah ivuh asiuch uiasd hcliusdhciuadsliuc hasdiuvh iuads hviuhfda lvchdfakcneroi nkj;ren fkjler bfkljrehkncdkls hfiudsh viuhsdfiuvh idfhv iudahviuhdf iuvch diuchiuadhc iusdahic uhsdaicu sdhaiucge rugcdufgavjuladg cvcuhdavjkud hivh 
-  </template>
 </Speaker>

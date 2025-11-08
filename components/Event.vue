@@ -9,8 +9,8 @@
     </div>
     <div class="desc">
       <div class="title">
-        <span>{{ title }}</span>
-        <span v-if="link"><a :href="link"><svg-icon type="mdi" :path="mdiOpenInNew"></svg-icon></a></span>
+        <span class="title-text">{{ title }}</span>
+        <span class="title-link" v-if="link"><a :href="link"><svg-icon type="mdi" :path="mdiOpenInNew"></svg-icon></a></span>
       </div>
       <div class="remarks">{{ remarks }}</div>
     </div>
@@ -33,7 +33,8 @@ import { mdiOpenInNew } from '@mdi/js';
   /* padding: 11px 16px 13px; */
   /* border: 1px solid var(--vp-c-brand-1); */
   border-radius: 8px;
-  margin: 10px 0px;
+  margin: 15px 0px;
+  background-color: var(--vp-c-bg);
 }
 .card .desc:last-child {
   border-radius: 0px 8px 8px 0px;
@@ -81,6 +82,15 @@ import { mdiOpenInNew } from '@mdi/js';
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+.title-text {
+  flex-grow: 1;
+}
+.title-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card .remarks {
   font-size: smaller;

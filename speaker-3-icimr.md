@@ -13,6 +13,4 @@ import Speaker from "./components/Speaker.vue"
   time="14:30"
   venue="LT7"
 >
-  <template #description>
-  </template>
 </Speaker>

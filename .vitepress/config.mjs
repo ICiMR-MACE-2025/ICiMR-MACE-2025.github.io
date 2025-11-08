@@ -15,17 +15,17 @@ export default defineConfig({
       {
         items: [
           { text: 'About ICiMR', link: '/about-icimr' }, 
-          { text: 'About MARS', link: '/about-mars' }, 
+          // { text: 'About MARS', link: '/about-mars' }, 
         ]
       },
-      {
-        text: 'Organisers',
-        items: [
-          { text: 'About Sunway University', link: '/about-sunway-university' },
-          { text: 'About XJTLU', link: '/about-xjtlu' },
-          { text: 'About UTM', link: '/about-utm' }
-        ]
-      },
+      // {
+      //   text: 'Organisers',
+      //   items: [
+      //     { text: 'About Sunway University', link: '/about-sunway-university' },
+      //     { text: 'About XJTLU', link: '/about-xjtlu' },
+      //     { text: 'About UTM', link: '/about-utm' }
+      //   ]
+      // },
       { 
         text: 'Schedule',
         items: [
@@ -60,16 +60,22 @@ export default defineConfig({
           { 
             text: 'ICiMR', 
             items: [
-              { text: 'Session 1', link: '/icimr-session-1' },
-              { text: 'Session 2', link: '/icimr-session-2' },
+              { text: 'Physical Room 1', link: '/icimr-physical-1' },
+              { text: 'Physical Room 2', link: '/icimr-physical-2' },
+              { text: 'Physical Room 3', link: '/icimr-physical-3' },
+              { text: 'Physical Room 4', link: '/icimr-physical-4' },
+              { text: 'Virtual Room 1', link: '/icimr-virtual-1' },
+              { text: 'Virtual Room 2', link: '/icimr-virtual-2' },
+              { text: 'Virtual Room 3', link: '/icimr-virtual-3' },
+              { text: 'Virtual Room 4', link: '/icimr-virtual-4' },
             ]
           },
-          { 
-            text: 'MARS', 
-            items: [
-              { text: 'Session 1', link: '/mars-session-1' },
-            ]
-          },
+          // { 
+          //   text: 'MARS', 
+          //   items: [
+          //     { text: 'Session 1', link: '/mars-session-1' },
+          //   ]
+          // },
         ]
       }
     ],

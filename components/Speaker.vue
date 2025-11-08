@@ -15,7 +15,7 @@
       <div class="affiliation">
         <slot name="affiliation"><b>Affiliation</b> {{ affiliation }}</slot>
       </div>
-      <div class="description">
+      <div class="description" v-if="$slots.description">
         <b>Description</b>
         <slot name="description"></slot>
       </div>

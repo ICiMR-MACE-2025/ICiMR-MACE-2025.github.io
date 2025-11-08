@@ -10,8 +10,8 @@
         :value="link"
         :size="1000"
         :margin="3"
-        background="#457d58"
-        foreground="#fffff4"
+        background="#ebae30"
+        foreground="#ffffff"
       /> -->
     </a>
     Scan or click QR code to launch
