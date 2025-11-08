@@ -2,6 +2,7 @@
 
 <script setup>
 import Event from './components/Event.vue'
+import SessionLink from './components/SessionLink.vue'
 </script>
 
 <style scoped>
@@ -14,6 +15,10 @@ import Event from './components/Event.vue'
 </style>
 
 ## Day 1
+
+<SessionLink link="https://bit.ly/Main_Hall_ICiMR_2025" title="Main Hall"/>
+
+
 <Event time="08:00" title="Breakfast & Registration" venue="Lobby" />
 
 <Event time="09:00" title="Opening Ceremony" venue="LT7" remarks="ICiMR x MACE"/>

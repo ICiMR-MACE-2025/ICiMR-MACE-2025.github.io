@@ -1,5 +1,6 @@
 <template>
   <div class="qrbox">
+    <b v-if="title">{{ title }}</b>
     <a :href="link">
       <QrcodeVue
         :value="link"
@@ -19,7 +20,7 @@
 </template>
 
 <script setup>
-defineProps(["link"])
+defineProps(["link","title"])
 import QrcodeVue from 'qrcode.vue';
 </script>
 
