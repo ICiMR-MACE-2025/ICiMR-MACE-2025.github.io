@@ -76,6 +76,7 @@ import { mdiOpenInNew } from '@mdi/js';
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: auto;
 }
 .card .title {
   font-size: larger;
